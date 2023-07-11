@@ -1,0 +1,57 @@
+/* main.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  .file-upload {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }
+  
+  .result-image {
+    max-width: 500px;
+    margin-bottom: 10px;
+  }
+  
+  .result-label {
+    font-weight: bold;
+  }
+  
+  .thankyou {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
