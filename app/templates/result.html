@@ -11,13 +11,16 @@
   <div class="container">
     <h1>Image Classification Result</h1>
     <div class="result">
-      <img src="{{ result_image }}" class="result-image">
-      <p><span class="result-label">Predicted Class:</span> {{ predicted_class }}</p>
-      <p><span class="result-label">Confidence Score:</span> {{ confidence_score }}</p>
+        <img src="data:image/jpeg;base64,{{ processed_image }}" class="result-image" style="width: 200px; height: 200px;">
+
+      <div class="prediction-info">
+        <h3>Prediction: {{ predicted_class }}</h3>
+        <p>Confidence Score: {{ confidence_score }}</p>
+      </div>
     </div>
     <div>
       <a href="/" class="button">Start Over</a>
-      <a href="/thankyou" class="button">Exit</a>
+      <a href="{{ url_for('thankyou') }}" class="button">Exit</a>
     </div>
   </div>
 </body>
